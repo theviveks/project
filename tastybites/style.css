@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    min-width: 120px;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+.logo {
+    flex: 3;
+    font-size: 50px;
+    color: rgb(255, 217, 0) !important;
+    font-weight: 1000;
+    font-style: oblique ;
+    min-width: 260px;
+    padding: 12px;
+}
+nav{
+    flex: 2;
+    display: flex;
+    margin: 2px;
+    align-items: center;
+}
+header a i, nav a i{
+    margin-right: 2px;
+    margin-top: 7px;
+
+}
+nav a{
+    padding: 40px;
+    flex: 1;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+
+}
+
+
+nav a:hover{
+
+    color: rgb(255, 204, 0);
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.line1{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.line2{
+    font-size: 24px;
+}
+.contact{
+    font-size: 22px;
+}
+.intro div{
+    margin-top: 30px;
+}
+
+button{
+    background-color: rgb(255, 128, 0);
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: .2em;
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    border: 1px solid rgb(255, 168, 7);
+    border-radius: 10px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(285px,1fr));
+    background:linear-gradient(to right,rgb(0, 0, 0),rgb(30, 29, 29)) ;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+h2{
+    background:linear-gradient(to right,rgb(0, 0, 0),rgb(30, 29, 29)) ;
+    color: white;
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+th{
+    color: rgb(255, 119, 0);
+    font-weight:800;
+    font-style: oblique ;
+    font-variant: small-caps;
+    font-size: 27px;
+    font-size: 33px;
+}
+
+table{
+    width: 100%;
+    padding: 20px;
+}
+
+.menu tr{
+    display: flex ;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+
+.starters{
+    grid-row: span 2;
+}
+.maincourse{
+    grid-row: span 2;
+}
+.location{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(285px,1fr));
+    background:linear-gradient(to right,rgb(0, 0, 0),rgb(30, 29, 29)) ;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+
+}
+
+.location h2{
+    color: rgb(255, 85, 0);
+    font-style: italic;
+    font-variant: small-caps ;
+    background: none;
+    font-size: 33px;
+}
+
+.location div{
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+
+}
+
+address{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.copy{
+    background: black;
+    color: white;
+    display: flex;
+    padding: 30px;
+}
+.social-menu{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.social-menu ul{
+    display: flex;
+    padding:0;
+}
+
+.social-menu ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 25px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+    
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #ff1f88;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #00b7ff;
+}
+
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #3463c2;
+}
+  
+.designby{
+    color: rgb(255, 204, 0);
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    padding: 12px;
+}
