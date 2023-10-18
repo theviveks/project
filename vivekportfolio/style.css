@@ -345,11 +345,10 @@ button:hover{
     margin-left: 4px;
     color: white;
     position: relative;
+    color: rgb(0, 145, 255);
 
 }
-.copyright a:hover{
-    color: rgb(0, 145, 255);
-}
+
 
 /*---------media------*/
 nav .fas{
